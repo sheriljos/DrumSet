@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    /* background: url('/images/verify-email.png'); */
+    background: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;    
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    width: 6em;
+    height: 4.5em;
+    border: 5px solid black;
+    border-radius: 6px;
+    margin: 20px;
+    text-align: center;
+    transition: all .07s ease;
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+    display: block;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.sound {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
